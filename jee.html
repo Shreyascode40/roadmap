@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="jeestyle.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <title>IIT JEE Roadmap</title>
+</head>
+<body>
+  <header class="header">
+    <div class="logo">
+      <i class="fas fa-graduation-cap"></i>
+      <h1>ExamRoadmap</h1>
+    </div>
+  </header>
+
+  <section class="info">
+    <div class="container">
+      <h2 class="jeelogo">IIT JEE</h2>
+      <div class="info-container">
+        <div class="all">
+          IIT JEE stands for Indian Institute of Technology Joint Entrance Examination.
+          It is India's premier national-level entrance exam for engineering aspirants
+          who seek admission to IITs, NITs, IIITs, and GFTIs.
+        </div>
+        <div class="sub">
+          <ul>
+            <li><i class="fas fa-atom"></i> Physics</li>
+            <li><i class="fas fa-flask"></i> Chemistry</li>
+            <li><i class="fas fa-calculator"></i> Maths</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="roadmap-section">
+    <h1>Roadmap</h1>
+    <div class="map-container">
+      <h2 class="class-heading">Class 11</h2>
+      <div class="subject-buttons">
+        <button onclick="toggleSection('physics')">
+          <i class="fas fa-atom"></i> Physics
+        </button>
+        <button onclick="toggleSection('chemistry')">
+          <i class="fas fa-flask"></i> Chemistry
+        </button>
+        <button onclick="toggleSection('maths')">
+          <i class="fas fa-calculator"></i> Maths
+        </button>
+      </div>
+
+      <div id="physics" class="topic-section">
+        <h3>Physics Topics</h3>
+        <ul>
+          <li>Mechanics</li>
+          <li>Thermodynamics</li>
+          <li>Waves and Oscillations</li>
+          <li>Electrostatics</li>
+          <li>Current Electricity</li>
+          <li>Magnetic Effects of Current</li>
+          <li>Properties of Matter</li>
+          <li>Kinetic Theory of Gases</li>
+        </ul>
+      </div>
+
+      <div id="chemistry" class="topic-section">
+        <h3>Chemistry Topics</h3>
+        <ul>
+          <li>Physical Chemistry - Mole Concept</li>
+          <li>Atomic Structure</li>
+          <li>Chemical Bonding</li>
+          <li>Thermodynamics</li>
+          <li>Equilibrium</li>
+          <li>Inorganic Chemistry - Periodic Table</li>
+          <li>Organic Chemistry - Basic Concepts</li>
+          <li>Hydrocarbons</li>
+        </ul>
+      </div>
+
+      <div id="maths" class="topic-section">
+        <h3>Maths Topics</h3>
+        <ul>
+          <li>Sets and Relations</li>
+          <li>Trigonometry</li>
+          <li>Complex Numbers</li>
+          <li>Quadratic Equations</li>
+          <li>Sequences and Series</li>
+          <li>Permutations and Combinations</li>
+          <li>Binomial Theorem</li>
+          <li>Coordinate Geometry</li>
+          <li>Limits and Derivatives</li>
+          <li>Statistics and Probability</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="map-container" style="margin-top: 40px;">
+      <h2 class="class-heading">Class 12</h2>
+      <div class="subject-buttons">
+        <button onclick="toggleSection('physics12')">
+          <i class="fas fa-atom"></i> Physics
+        </button>
+        <button onclick="toggleSection('chemistry12')">
+          <i class="fas fa-flask"></i> Chemistry
+        </button>
+        <button onclick="toggleSection('maths12')">
+          <i class="fas fa-calculator"></i> Maths
+        </button>
+      </div>
+
+      <div id="physics12" class="topic-section">
+        <h3>Physics Topics</h3>
+        <ul>
+          <li>Electrostatics</li>
+          <li>Current Electricity</li>
+          <li>Magnetic Effects of Current</li>
+          <li>Electromagnetic Induction</li>
+          <li>Alternating Current</li>
+          <li>Electromagnetic Waves</li>
+          <li>Optics</li>
+          <li>Dual Nature of Matter</li>
+          <li>Atoms and Nuclei</li>
+          <li>Semiconductor Electronics</li>
+        </ul>
+      </div>
+
+      <div id="chemistry12" class="topic-section">
+        <h3>Chemistry Topics</h3>
+        <ul>
+          <li>Solid State</li>
+          <li>Solutions</li>
+          <li>Electrochemistry</li>
+          <li>Chemical Kinetics</li>
+          <li>Surface Chemistry</li>
+          <li>p-Block Elements</li>
+          <li>d and f Block Elements</li>
+          <li>Coordination Compounds</li>
+          <li>Haloalkanes and Haloarenes</li>
+          <li>Alcohols, Phenols and Ethers</li>
+          <li>Aldehydes and Ketones</li>
+          <li>Carboxylic Acids</li>
+          <li>Amines</li>
+          <li>Biomolecules</li>
+          <li>Polymers</li>
+        </ul>
+      </div>
+
+      <div id="maths12" class="topic-section">
+        <h3>Maths Topics</h3>
+        <ul>
+          <li>Relations and Functions</li>
+          <li>Inverse Trigonometric Functions</li>
+          <li>Matrices and Determinants</li>
+          <li>Continuity and Differentiability</li>
+          <li>Applications of Derivatives</li>
+          <li>Integrals</li>
+          <li>Applications of Integrals</li>
+          <li>Differential Equations</li>
+          <li>Vector Algebra</li>
+          <li>Three Dimensional Geometry</li>
+          <li>Linear Programming</li>
+          <li>Probability</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>&copy; 2024 ExamRoadmap. All rights reserved.</p>
+    <p>Best of luck for your IIT JEE preparation!</p>
+  </footer>
+
+  <script>
+    function toggleSection(sectionId) {
+      const section = document.getElementById(sectionId);
+      const allSections = document.querySelectorAll('.topic-section');
+      
+      allSections.forEach(sec => {
+        if (sec.id !== sectionId) {
+          sec.classList.remove('active');
+        }
+      });
+      
+      section.classList.toggle('active');
+    }
+  </script>
+</body>
+</html>

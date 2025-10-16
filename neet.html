@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="neetstyle.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <title>NEET Roadmap</title>
+</head>
+<body>
+  <header class="header">
+    <div class="logo">
+      <i class="fas fa-graduation-cap"></i>
+      <h1>ExamRoadmap</h1>
+    </div>
+  </header>
+
+  <section class="info">
+    <div class="container">
+      <h2 class="neetlogo">NEET</h2>
+      <div class="info-container">
+        <div class="all">
+          NEET stands for National Eligibility cum Entrance Test. It is India's premier 
+          national-level entrance exam for medical aspirants who seek admission to MBBS, 
+          BDS, AYUSH, and other medical courses in government and private medical colleges.
+        </div>
+        <div class="sub">
+          <ul>
+            <li><i class="fas fa-atom"></i> Physics</li>
+            <li><i class="fas fa-flask"></i> Chemistry</li>
+            <li><i class="fas fa-dna"></i> Biology</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="roadmap-section">
+    <h1>Roadmap</h1>
+    <div class="map-container">
+      <h2 class="class-heading">Class 11</h2>
+      <div class="subject-buttons">
+        <button onclick="toggleSection('physics')">
+          <i class="fas fa-atom"></i> Physics
+        </button>
+        <button onclick="toggleSection('chemistry')">
+          <i class="fas fa-flask"></i> Chemistry
+        </button>
+        <button onclick="toggleSection('biology')">
+          <i class="fas fa-dna"></i> Biology
+        </button>
+      </div>
+
+      <div id="physics" class="topic-section">
+        <h3>Physics Topics</h3>
+        <ul>
+          <li>Physical World and Measurement</li>
+          <li>Kinematics</li>
+          <li>Laws of Motion</li>
+          <li>Work, Energy and Power</li>
+          <li>Motion of System of Particles</li>
+          <li>Gravitation</li>
+          <li>Properties of Bulk Matter</li>
+          <li>Thermodynamics</li>
+          <li>Kinetic Theory of Gases</li>
+          <li>Oscillations and Waves</li>
+        </ul>
+      </div>
+
+      <div id="chemistry" class="topic-section">
+        <h3>Chemistry Topics</h3>
+        <ul>
+          <li>Some Basic Concepts of Chemistry</li>
+          <li>Structure of Atom</li>
+          <li>Classification of Elements</li>
+          <li>Chemical Bonding</li>
+          <li>States of Matter</li>
+          <li>Thermodynamics</li>
+          <li>Equilibrium</li>
+          <li>Redox Reactions</li>
+          <li>Hydrogen</li>
+          <li>s-Block Elements</li>
+          <li>p-Block Elements</li>
+          <li>Organic Chemistry Basics</li>
+          <li>Hydrocarbons</li>
+          <li>Environmental Chemistry</li>
+        </ul>
+      </div>
+
+      <div id="biology" class="topic-section">
+        <h3>Biology Topics</h3>
+        <ul>
+          <li>The Living World</li>
+          <li>Biological Classification</li>
+          <li>Plant Kingdom</li>
+          <li>Animal Kingdom</li>
+          <li>Morphology of Flowering Plants</li>
+          <li>Anatomy of Flowering Plants</li>
+          <li>Structural Organization in Animals</li>
+          <li>Cell: The Unit of Life</li>
+          <li>Biomolecules</li>
+          <li>Cell Cycle and Cell Division</li>
+          <li>Transport in Plants</li>
+          <li>Mineral Nutrition</li>
+          <li>Photosynthesis in Higher Plants</li>
+          <li>Respiration in Plants</li>
+          <li>Plant Growth and Development</li>
+          <li>Digestion and Absorption</li>
+          <li>Breathing and Exchange of Gases</li>
+          <li>Body Fluids and Circulation</li>
+          <li>Excretory Products and Elimination</li>
+          <li>Locomotion and Movement</li>
+          <li>Neural Control and Coordination</li>
+          <li>Chemical Coordination</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="map-container" style="margin-top: 40px;">
+      <h2 class="class-heading">Class 12</h2>
+      <div class="subject-buttons">
+        <button onclick="toggleSection('physics12')">
+          <i class="fas fa-atom"></i> Physics
+        </button>
+        <button onclick="toggleSection('chemistry12')">
+          <i class="fas fa-flask"></i> Chemistry
+        </button>
+        <button onclick="toggleSection('biology12')">
+          <i class="fas fa-dna"></i> Biology
+        </button>
+      </div>
+
+      <div id="physics12" class="topic-section">
+        <h3>Physics Topics</h3>
+        <ul>
+          <li>Electric Charges and Fields</li>
+          <li>Electrostatic Potential</li>
+          <li>Current Electricity</li>
+          <li>Moving Charges and Magnetism</li>
+          <li>Magnetism and Matter</li>
+          <li>Electromagnetic Induction</li>
+          <li>Alternating Current</li>
+          <li>Electromagnetic Waves</li>
+          <li>Ray Optics and Optical Instruments</li>
+          <li>Wave Optics</li>
+          <li>Dual Nature of Matter</li>
+          <li>Atoms</li>
+          <li>Nuclei</li>
+          <li>Semiconductor Electronics</li>
+          <li>Communication Systems</li>
+        </ul>
+      </div>
+
+      <div id="chemistry12" class="topic-section">
+        <h3>Chemistry Topics</h3>
+        <ul>
+          <li>Solid State</li>
+          <li>Solutions</li>
+          <li>Electrochemistry</li>
+          <li>Chemical Kinetics</li>
+          <li>Surface Chemistry</li>
+          <li>General Principles of Metallurgy</li>
+          <li>p-Block Elements</li>
+          <li>d and f Block Elements</li>
+          <li>Coordination Compounds</li>
+          <li>Haloalkanes and Haloarenes</li>
+          <li>Alcohols, Phenols and Ethers</li>
+          <li>Aldehydes, Ketones and Carboxylic Acids</li>
+          <li>Organic Compounds with Nitrogen</li>
+          <li>Biomolecules</li>
+          <li>Polymers</li>
+          <li>Chemistry in Everyday Life</li>
+        </ul>
+      </div>
+
+      <div id="biology12" class="topic-section">
+        <h3>Biology Topics</h3>
+        <ul>
+          <li>Reproduction in Organisms</li>
+          <li>Sexual Reproduction in Flowering Plants</li>
+          <li>Human Reproduction</li>
+          <li>Reproductive Health</li>
+          <li>Principles of Inheritance and Variation</li>
+          <li>Molecular Basis of Inheritance</li>
+          <li>Evolution</li>
+          <li>Human Health and Disease</li>
+          <li>Strategies for Enhancement in Food Production</li>
+          <li>Microbes in Human Welfare</li>
+          <li>Biotechnology: Principles and Processes</li>
+          <li>Biotechnology and its Applications</li>
+          <li>Organisms and Populations</li>
+          <li>Ecosystem</li>
+          <li>Biodiversity and Conservation</li>
+          <li>Environmental Issues</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>&copy; 2024 ExamRoadmap. All rights reserved.</p>
+    <p>Best of luck for your NEET preparation!</p>
+  </footer>
+
+  <script>
+    function toggleSection(sectionId) {
+      const section = document.getElementById(sectionId);
+      const allSections = document.querySelectorAll('.topic-section');
+      
+      allSections.forEach(sec => {
+        if (sec.id !== sectionId) {
+          sec.classList.remove('active');
+        }
+      });
+      
+      section.classList.toggle('active');
+    }
+  </script>
+</body>
+</html>

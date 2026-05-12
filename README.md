@@ -55,3 +55,7 @@ The site features a modern, responsive design with:
 ## License
 
 MIT License
+
+---
+
+**Author:** Shreyas
